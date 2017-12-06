@@ -1,7 +1,12 @@
+html {
+  background-color: #7ab7cc;
+}
+
 header {
   background: #444;
   color: #fff;
   padding: 20px;
+  font-size: 26px;
 }
 
 /* css comment */
