@@ -67,3 +67,6 @@ else if (xmas1 === 'NO' || xmas1 === 'N') {
 } else {
   alert ('I dont recognize this response!');
 }
+
+var number;
+var counter =
