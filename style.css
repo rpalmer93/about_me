@@ -2,16 +2,56 @@ html {
   background-color: #7ab7cc;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 header {
   background: #444;
   color: #fff;
-  padding: 20px;
-  font-size: 26px;
+  padding: 10px;
+  font-size: 30px;
+  border: 3px solid blue;
 }
 
-/* css comment */
+header li {
+  font-size: 18px;
+}
+
+header nav ul li {
+  color: #fff;
+  display: inline-block;
+}
 
 h1 {
   font-size: 20px;
   margin-bottom: 20px;
 }
+
+main h2 sub-banner {
+  margin-right: 10px;
+}
+
+main {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+article {
+  border: 2px solid blue;
+  text-align: left;
+  margin: 4px;
+  width: auto;
+  padding: 5px;
+  background-color: inherit;
+}
+
+footer {
+    background: #444;
+    color: #fff;
+    padding: 10px;
+    border: 3px solid blue;
+  }
