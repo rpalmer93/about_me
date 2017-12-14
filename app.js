@@ -1,7 +1,9 @@
 'use strict';
 
+var correctanswers = 0;
+
 function niceQustion(){
-  var correctanswers = 0;
+
 
   var nice = prompt('Does Ryan seem like a nice guy?');
   var nice1 = nice.toUpperCase();
@@ -104,7 +106,7 @@ function mealQuestion(){
 }
 
 function livedQuestion(){
-  var states = ['colorado', ' arizona'];
+  var states = ['colorado', 'arizona'];
   var answer = prompt('What states has Ryan lived in besides Washington?');
   var flag;
 
@@ -129,3 +131,7 @@ function livedQuestion(){
 
   alert('You got ' + correctanswers + ' out of 7 correct answers!');
 }
+
+niceQustion();
+mealQuestion();
+livedQuestion();
